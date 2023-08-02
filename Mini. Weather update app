@@ -1,0 +1,7 @@
+weather_update = input("\t\t\t\t\t\tHow is the weather outside? ")
+if weather_update == "rainy":
+    result = "take your umbrella"
+    print("\t\t\t\t\t\t", "\U0001F608", result.title())
+else:
+    result = "Where your glasses"
+    print("\t\t\t\t\t\t", "\U0001F618", result.title())
