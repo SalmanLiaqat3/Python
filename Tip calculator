@@ -1,0 +1,11 @@
+# Take value in dollar from the user and take tips from the customer as good services which the restaurant staff has provided him?
+
+food_bill = float(input("Enter the food amount: "))
+tip_per = float(input("Enter the tip percentage: "))/100
+total_tip = food_bill * tip_per
+total_amount_to_pay = food_bill + total_tip
+print("---------------------------------------------")
+print(f'Food Bill:${food_bill}')
+print(f'Total Tip: :${total_tip}')
+print(f'Total Amount You Paid:${total_amount_to_pay}')
+print("---------------------------------------------")
