@@ -1,0 +1,10 @@
+def even_odd(number):
+    for i in range(num):
+        if i % 2 == 0:
+            print("\U0001F601", f'The {i} is even ')
+        else:
+            print("\U0001F601", f'The {i} is odd ')
+
+
+num = int(input("Enter the number:"))
+even_odd(num)
