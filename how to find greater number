@@ -1,0 +1,11 @@
+def greater(n1: int, n2: int) -> int:
+    if n1 > n2:
+        return n1
+    else:
+        return n2
+
+
+n = int(input("Enter the number:"))
+num = int(input("Enter the number:"))
+result = greater(n, num)
+print(f'The Greater number is {result}')
